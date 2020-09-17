@@ -23,7 +23,7 @@ void solve(double meal_cost, int tip_percent, int tax_percent) {
 
     total_cost = meal_cost + meal_cost*tip_percent/100 + meal_cost*tax_percent/100;
 
-    cout << (int) total_cost;
+    cout << round(total_cost);
 
 }
 

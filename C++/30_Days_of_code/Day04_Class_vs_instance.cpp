@@ -75,7 +75,7 @@ class Person{
 
 int main(){
     int t;
-	int age;
+    int age;
     cin >> t;
     for(int i=0; i < t; i++) {
     	cin >> age;

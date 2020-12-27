@@ -5,4 +5,5 @@ me being a skollie
 15/12/2020 - trollolol
 17/12/2020 - information overload with Jason on all tech stacks webdev, took notes and Sunny coded
 21/12/2020 - Setting up Python and C++ on work laptop
-26/12/2020 - LaTeX CV and FourX meeting*/
+26/12/2020 - LaTeX CV and FourX meeting
+27/12/2020 - Cover Letter completed, CV finishing up to do in LaTeX*/

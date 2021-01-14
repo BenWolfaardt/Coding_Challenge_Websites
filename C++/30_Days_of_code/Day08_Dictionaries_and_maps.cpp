@@ -6,8 +6,8 @@ me being a skollie
 17/12/2020 - information overload with Jason on all tech stacks webdev, took notes and Sunny coded
 21/12/2020 - Setting up Python and C++ on work laptop
 26/12/2020 - LaTeX CV and FourX meeting
-27/12/2020 - Cover Letter completed, CV finishing up to do in LaTeX*/
+27/12/2020 - Cover Letter completed, CV finishing up to do in LaTeX
 09/01/2021 - Rested today
 13/01/2021 - FourX meeting discussed code, but exhausted
-Early night, need to get my sleep schedule sorted, want to code a lot this weekend. 
-  
+14/01/2021 - Early night, need to get my sleep schedule sorted, want to code a lot this weekend. */
+ 

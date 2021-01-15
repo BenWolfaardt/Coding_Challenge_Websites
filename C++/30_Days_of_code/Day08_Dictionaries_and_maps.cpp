@@ -9,5 +9,5 @@ me being a skollie
 27/12/2020 - Cover Letter completed, CV finishing up to do in LaTeX
 09/01/2021 - Rested today
 13/01/2021 - FourX meeting discussed code, but exhausted
-14/01/2021 - Early night, need to get my sleep schedule sorted, want to code a lot this weekend. */
- 
+14/01/2021 - Early night, need to get my sleep schedule sorted, want to code a lot this weekend. 
+15/01/2021 - School tonight*/

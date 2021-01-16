@@ -10,4 +10,6 @@ me being a skollie
 09/01/2021 - Rested today
 13/01/2021 - FourX meeting discussed code, but exhausted
 14/01/2021 - Early night, need to get my sleep schedule sorted, want to code a lot this weekend. 
-15/01/2021 - School tonight*/
+15/01/2021 - School tonight
+16/01/2021 - struggled with mingw and my installation of C++ on home PC
+*/

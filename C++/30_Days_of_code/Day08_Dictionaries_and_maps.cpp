@@ -13,4 +13,5 @@ me being a skollie
 15/01/2021 - School tonight
 16/01/2021 - Struggled with mingw and my installation of C++ on home PC
 19/01/2021 - Moeg
-20/01/2021 - Setup MinGW so that C/C++ can run ion VSCode, also created a Git repository for my VSCode configs for future reference*/
+20/01/2021 - Setup MinGW so that C/C++ can run ion VSCode, also created a Git repository for my VSCode configs for future reference
+21/01/2021 - Early night*/

@@ -15,4 +15,5 @@ me being a skollie
 19/01/2021 - Moeg
 20/01/2021 - Setup MinGW so that C/C++ can run ion VSCode, also created a Git repository for my VSCode configs for future reference
 21/01/2021 - Early night
-24/01/2021 - Its been a much needed relaxcing weekend, everything should be back to normal this week in terms of sleep*/
+24/01/2021 - Its been a much needed relaxcing weekend, everything should be back to normal this week in terms of sleep
+25/01/2021 - Fiddled with WSL tonight*/

@@ -18,4 +18,6 @@ me being a skollie
 24/01/2021 - Its been a much needed relaxcing weekend, everything should be back to normal this week in terms of sleep
 25/01/2021 - Fiddled with WSL tonight
 26/01/2021 - Italian school tonight, busy organising my environment
-30/01/2021 - A day of relaxation*/
+30/01/2021 - A day of relaxation
+31/01/2021 - Explained Alpaca and YFinance to Dono and Duncan*/
+

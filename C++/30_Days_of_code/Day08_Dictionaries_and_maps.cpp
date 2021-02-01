@@ -19,5 +19,6 @@ me being a skollie
 25/01/2021 - Fiddled with WSL tonight
 26/01/2021 - Italian school tonight, busy organising my environment
 30/01/2021 - A day of relaxation
-31/01/2021 - Explained Alpaca and YFinance to Dono and Duncan*/
+31/01/2021 - Explained Alpaca and YFinance to Dono and Duncan
+01/02/2021 - Early night*/
 

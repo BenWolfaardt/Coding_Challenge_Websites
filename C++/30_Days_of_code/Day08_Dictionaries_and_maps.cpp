@@ -20,5 +20,5 @@ me being a skollie
 26/01/2021 - Italian school tonight, busy organising my environment
 30/01/2021 - A day of relaxation
 31/01/2021 - Explained Alpaca and YFinance to Dono and Duncan
-01/02/2021 - Early night*/
-
+01/02/2021 - Early night
+02/02/2021 - It'll be the third early night, but first have to school*/

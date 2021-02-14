@@ -24,4 +24,5 @@ me being a skollie
 02/02/2021 - It'll be the third early night, but first have to school
 09/02/2021 - off to school
 10/02/2021 - discussed ZMQ with Björn regarding our automatic trading system
+14/02/2021 - Bought some online courses and spoke with Luca about coding 
 */

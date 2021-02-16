@@ -25,4 +25,5 @@ me being a skollie
 09/02/2021 - off to school
 10/02/2021 - discussed ZMQ with Björn regarding our automatic trading system
 14/02/2021 - Bought some online courses and spoke with Luca about coding 
+16/02/2021 - Call Franco
 */

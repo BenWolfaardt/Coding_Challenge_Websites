@@ -27,4 +27,5 @@ me being a skollie
 14/02/2021 - Bought some online courses and spoke with Luca about coding 
 16/02/2021 - Call Franco
 18/02/2021 - NASA Persistabce landing and practived typing
+26/02/2021 - it's been a hectic week, but my typing is improving
 */

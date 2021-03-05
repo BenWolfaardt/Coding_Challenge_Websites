@@ -28,4 +28,5 @@ me being a skollie
 16/02/2021 - Call Franco
 18/02/2021 - NASA Persistabce landing and practived typing
 26/02/2021 - it's been a hectic week, but my typing is improving
+05/03/2021 - Reading PhD book about everything, literally
 */

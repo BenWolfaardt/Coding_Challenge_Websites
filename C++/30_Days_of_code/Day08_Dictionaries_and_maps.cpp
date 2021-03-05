@@ -1,6 +1,7 @@
-/*This is me coding lol
-and again; me fooling myself
-me being a skollie
+/*
+dd/mm/yyyy - This is me coding lol
+dd/mm/yyyy - and again; me fooling myself
+dd/mm/yyyy - me being a skollie
 10/12/2020 - lol its been 2 months now
 15/12/2020 - trollolol
 17/12/2020 - information overload with Jason on all tech stacks webdev, took notes and Sunny coded

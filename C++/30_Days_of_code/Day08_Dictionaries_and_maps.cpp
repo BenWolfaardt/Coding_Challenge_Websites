@@ -31,4 +31,5 @@ dd/mm/yyyy - me being a skollie
 26/02/2021 - it's been a hectic week, but my typing is improving
 05/03/2021 - Reading PhD book about everything, literally
 08/03/2021 - Job interview today
+11/03/2021 - Early night, Go Go Go tomoorow, took the day off. 
 */

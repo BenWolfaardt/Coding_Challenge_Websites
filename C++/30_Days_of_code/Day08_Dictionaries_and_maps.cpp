@@ -32,4 +32,5 @@ dd/mm/yyyy - me being a skollie
 05/03/2021 - Reading PhD book about everything, literally
 08/03/2021 - Job interview today
 11/03/2021 - Early night, Go Go Go tomoorow, took the day off. 
+13/03/2021 - Finished reading the Go book today and busy with the tutorial currently
 */

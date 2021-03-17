@@ -34,4 +34,5 @@ dd/mm/yyyy - me being a skollie
 11/03/2021 - Early night, Go Go Go tomoorow, took the day off. 
 13/03/2021 - Finished reading the Go book today and busy with the tutorial currently
 15/03/2021 - Coded yesterday, VS Code stopped working with WSL, VM stopped working and I struggled long enough. Today installed all from scratch on different pc and it works!
+17/03/2021 - Continued coding the official Go tour
 */

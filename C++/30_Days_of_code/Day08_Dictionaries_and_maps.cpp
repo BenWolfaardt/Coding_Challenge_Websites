@@ -37,4 +37,6 @@ dd/mm/yyyy - me being a skollie
 17/03/2021 - Continued coding the official Go tour
 12/04/2021 - Lol its been a while since I have been a skollie like this, Coding test begins officially tonight...
 13/04/2021 - Italian class tonight, will wake up early and code
-16/04/2021 - Got everything ready for a weekend filled with development*/
+16/04/2021 - Got everything ready for a weekend filled with development
+18/04/2021 - Worked with Docker, got the Tradenet Blockchain up and running, worked with REST API and HTTP request, read a lot of code, even some ETH and BTC code, quite interesting. 
+*/

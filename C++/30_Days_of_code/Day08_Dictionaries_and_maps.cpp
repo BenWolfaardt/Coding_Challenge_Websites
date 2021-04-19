@@ -2,7 +2,7 @@
 dd/mm/yyyy - This is me coding lol
 dd/mm/yyyy - and again; me fooling myself
 dd/mm/yyyy - me being a skollie
-10/12/2020 - lol its been 2 months now
+10/12/2020 - lol its been 2 months now 
 15/12/2020 - trollolol
 17/12/2020 - information overload with Jason on all tech stacks webdev, took notes and Sunny coded
 21/12/2020 - Setting up Python and C++ on work laptop
@@ -39,4 +39,5 @@ dd/mm/yyyy - me being a skollie
 13/04/2021 - Italian class tonight, will wake up early and code
 16/04/2021 - Got everything ready for a weekend filled with development
 18/04/2021 - Worked with Docker, got the Tradenet Blockchain up and running, worked with REST API and HTTP request, read a lot of code, even some ETH and BTC code, quite interesting. 
+19/04/2021 - Worked on the Tradenet Documents blockchain and wrote documentation regarding the design of a Fuzzy Test suite for the module messages.
 */

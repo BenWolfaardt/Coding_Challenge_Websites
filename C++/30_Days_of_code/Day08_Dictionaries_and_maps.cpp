@@ -40,4 +40,5 @@ dd/mm/yyyy - me being a skollie
 16/04/2021 - Got everything ready for a weekend filled with development
 18/04/2021 - Worked with Docker, got the Tradenet Blockchain up and running, worked with REST API and HTTP request, read a lot of code, even some ETH and BTC code, quite interesting. 
 19/04/2021 - Worked on the Tradenet Documents blockchain and wrote documentation regarding the design of a Fuzzy Test suite for the module messages.
+20/04/2021 - continued working in document
 */

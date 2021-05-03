@@ -43,4 +43,5 @@ dd/mm/yyyy - me being a skollie
 20/04/2021 - continued working in document
 23/04/2021 - tidied apartment, need to finish up the document tomorrow. Then edit and finalise on Sunday. 
 25/04/2021 - still working on the submission.
+03/05/2022 - early night, checked YAML and spoke to Keanu about Data Science
 */

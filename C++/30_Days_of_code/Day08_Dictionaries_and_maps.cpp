@@ -46,4 +46,5 @@ dd/mm/yyyy - me being a skollie
 03/05/2022 - early night, checked YAML and spoke to Keanu about Data Science
 04/05/2021 - Italian tonight, then to bed
 10/05/2021 - Napped, exhausted
+11/05/2021 - Italian school
 */

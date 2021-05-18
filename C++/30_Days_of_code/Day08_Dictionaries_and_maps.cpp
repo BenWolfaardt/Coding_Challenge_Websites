@@ -50,4 +50,5 @@ dd/mm/yyyy - me being a skollie
 12/05/2021 - Fishing
 13/05/2021 - Early night
 15/05/2021 - Rested a lot.
+18/05/2021 - A2 Italian exam 
 */

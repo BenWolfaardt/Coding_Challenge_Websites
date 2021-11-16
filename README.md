@@ -7,7 +7,7 @@ As not to ocupy too many repositories with "tutorials" I've decided to group the
 # Tutorials Completed
 
 The branches, i.e. Coding Challenge Website, with the respective langauges are as follows:  
-1. [Hacker Rank - C++]()
+1. [Hacker Rank - C++](https://github.com/BenWolfaardt/Coding_Challenge_Websites/tree/01-Hacker_Rank-C+%2B)
 <!-- 2. []()
 3. []()
 4. []()

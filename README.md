@@ -18,9 +18,21 @@ The branches, i.e. Coding Challenge Website, with the respective langauges are a
 9. []()
 10. []() -->
 
----
+# Other Website
 
-# `git checkout --orphan BRANCHNAME` 
+The list of below websites was extracted from [here](https://www.freecodecamp.org/news/the-10-most-popular-coding-challenge-websites-of-2016-fb8a5672d22f/) - giving a summary of what each site is known for.
+
+* [TopCoder](https://www.topcoder.com/challenges/?pageIndex=1)
+* [Coderbyte](https://www.coderbyte.com/)
+* [Project Euler](https://projecteuler.net/)
+* [CodeChef](https://www.codechef.com/)
+* [Exercism.io](https://exercism.io/)
+* [Codewars](https://www.codewars.com/)
+* [LeetCode](https://leetcode.com/)
+* [SPOJ](http://www.spoj.com/)
+* [CodinGame](https://www.codingame.com/)
+
+<!-- # `git checkout --orphan BRANCHNAME` 
 
 The following is an approach to implement **monorepos** as found [here](https://stackoverflow.com/questions/14679614/is-there-a-way-to-put-multiple-projects-in-a-git-repository#14680329).
 
@@ -62,22 +74,8 @@ The following is an approach to implement **monorepos** as found [here](https://
    > Ensure that you have a blank working directory when starting a new tutorial and that nothing is staged for `git`.  
    > Ensure that the `.git` file is still in the directory.  
 
-   > Follow on from Step 2
+   > Follow on from Step 2 -->
 
 # TODO
 
 * // TODO: practice more;  
-
-# Other Website
-
-The list of below websites was extracted from [here](https://www.freecodecamp.org/news/the-10-most-popular-coding-challenge-websites-of-2016-fb8a5672d22f/) - giving a summary of what each site is known for.
-
-* [TopCoder](https://www.topcoder.com/challenges/?pageIndex=1)
-* [Coderbyte](https://www.coderbyte.com/)
-* [Project Euler](https://projecteuler.net/)
-* [CodeChef](https://www.codechef.com/)
-* [Exercism.io](https://exercism.io/)
-* [Codewars](https://www.codewars.com/)
-* [LeetCode](https://leetcode.com/)
-* [SPOJ](http://www.spoj.com/)
-* [CodinGame](https://www.codingame.com/)

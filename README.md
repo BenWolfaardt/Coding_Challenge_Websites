@@ -1,4 +1,4 @@
-# [Hacker Rank C++ Challenges](https://www.hackerrank.com/domains/python)
+# [Hacker Rank Python Challenges](https://www.hackerrank.com/domains/python)
 
 These are the HackerRank challenges that I have worked on to improve my understanding in Data Structures as well as my general `Python` ability.
 

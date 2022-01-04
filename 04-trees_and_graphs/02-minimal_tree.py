@@ -81,6 +81,17 @@ class Test(unittest.TestCase):
         for array in self.sortedArrays:
             bst = createMinimalBST(array)
             self.assertEqual(str(bst), "(5(3(2(1..).)(4..))(8(7(6..).)(9..)))")
+#                               
+#                                                       5
+#                                                   /       \         
+#                                                3             8 
+#                                              /   \         /   \
+#                                             2     4       7     9  
+#                                            / \   / \     / \   / \
+#                                           1   . .   .   6   . .   .
+#                                          / \           / \  
+#                                         .   .         .   . 
+#
 
 if __name__== "__main__":
     unittest.main()

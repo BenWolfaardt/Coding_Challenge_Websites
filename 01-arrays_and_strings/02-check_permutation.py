@@ -86,7 +86,7 @@ class Test(unittest.TestCase):
 
     testFunctions = [
         checkBySort,
-        checkBySort,
+        checkByCount,
     ]
 
     def test_cp(self):

@@ -53,24 +53,39 @@ class Node():
 
 #--------------------------------------------------------Tree--------------------------------------------------------#
 
-n1 = Node(7)
-n2 = Node(4)
-n3 = Node(9)
-n4 = Node(5)
-n5 = Node(-2)
-n1.left = n2
-n1.right = n3
-n2.left = n4
-n2.right = n5
-n2.parent = n1
-n3.parent = n1
-n4.parent = n2
-n5.parent = n2
+# n1 = Node(7)
+# n2 = Node(4)
+# n3 = Node(9)
+# n4 = Node(5)
+# n5 = Node(-2)
+# n1.left = n2
+# n1.right = n3
+# n2.left = n4
+# n2.right = n5
+# n2.parent = n1
+# n3.parent = n1
+# n4.parent = n2
+# n5.parent = n2
+
+from BinaryTree import BinaryTree 
+
+t1 = BinaryTree()
+n1 = t1.insert(10, None)
+n2 = t1.insert(5, n1)
+n3 = t1.insert(-3, n1)
+n4 = t1.insert(3, n2)
+n5 = t1.insert(2, n2)
+n6 = t1.insert(3, n4)
+n7 = t1.insert(-2, n4)
+n8 = t1.insert(1, n5)
+n9 = t1.insert(11, n3)
+n10 = t1.insert(8, n9)
+n11 = t1.insert(-8, n10)
 
 #--------------------------------------------------------------------------------------------------------------------#
 
 global i, counter, sum
-index, counter, value = 0, 0, 9
+index, counter, value = 0, 0, 8
 sum = n1.key
 traversal = []
 traversal.append(n1.key)
@@ -120,6 +135,36 @@ def rootToLeafCheck(fullTraversal, value):
                 counter += 1
     return counter
 
+#-----------------------------------------------------Optimised-----------------------------------------------------#
+
+def countPathsWithSum(node, targetSum, runningSum=0, pathCountHashTable=None):
+    if pathCountHashTable == None:
+        pathCountHashTable = {}
+    if node == None:
+        return 0
+    runningSum += node.key
+    totalPaths = pathCountHashTable.get((runningSum - targetSum), 0)
+
+    # if runningSum equals targetSum, then one additional path starts at root. Add in this path
+    if runningSum == targetSum:
+        totalPaths += 1
+
+    # Increment pathCount, recurse, then deccrement pathCpunt
+    incrementHashTable(pathCountHashTable, runningSum, 1) # increment pathCountHashTable
+    totalPaths += countPathsWithSum(node.left, targetSum, runningSum, pathCountHashTable)
+    totalPaths += countPathsWithSum(node.right, targetSum, runningSum, pathCountHashTable)
+    incrementHashTable(pathCountHashTable, runningSum, -1) # decrement pathCount
+
+    return totalPaths
+
+
+def incrementHashTable(hashTable, key, delta):
+    newCount = hashTable.get(key, 0) + delta
+    if newCount == 0:
+        hashTable.pop(key)
+    else: 
+        hashTable[key] = newCount
+
 #--------------------------------------------------------Tests-------------------------------------------------------#
 
 import unittest
@@ -128,7 +173,15 @@ class Test(unittest.TestCase):
   
     def testAllSequences(self):
 
-        self.assertEqual(traverse(n1), 3)
+        # self.assertEqual(traverse(n1), 3)
+        self.assertEqual(traverse(n1), 5)
 
 if __name__ == "__main__":
-  unittest.main() # actual tests
+    # print(countPathsWithSum(n1, 9))
+    print(countPathsWithSum(n1, 8))
+    unittest.main() # actual tests (Ben method)
+    # check if the assert statement's value is equal to that of the optimised method.
+
+    # TODO: fix Ben's method, I need to implement the other for loop that I originally had because I'm counting the same things mutliple times.
+    # have an index = 0 flag to allow the rootToLeafCheck to be run twice, for its main left and right nodes, and then use the other function for all calls
+    

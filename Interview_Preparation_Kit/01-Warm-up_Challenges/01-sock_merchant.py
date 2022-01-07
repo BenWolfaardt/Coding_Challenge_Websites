@@ -2,12 +2,6 @@
 
 # https://www.hackerrank.com/challenges/sock-merchant/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
 
-import math
-import os
-import random
-import re
-import sys
-
 #
 # Complete the 'sockMerchant' function below.
 #
@@ -32,15 +26,20 @@ def sockMerchant(n, ar):
         
     return pairs
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+import unittest
 
-    n = int(input().strip())
+class Test(unittest.TestCase):
 
-    ar = list(map(int, input().rstrip().split()))
+    tests = [
+        [9, [10, 20, 20, 10, 10, 30, 50, 10, 20], 3],
+        (10, [1, 1, 3, 1, 2, 1, 3, 3, 3, 3], 4)
+    ]
 
-    result = sockMerchant(n, ar)
+    def testAllSeqence(self):
+        for [n, ar, expected] in self.tests:
+            actual = sockMerchant(n, ar)
+            assert actual == expected
 
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+if __name__ == "__main__":
+    unittest.main()
+    

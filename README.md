@@ -12,7 +12,7 @@ The branches, i.e. Coding Challenge Sources, with their respective langauges are
 1.1. [Hacker Rank - C++](https://github.com/BenWolfaardt/Coding_Challenge_Websites/tree/01-Hacker_Rank-C+%2B)  
 1.2. [Hacker Rank - Python](https://github.com/BenWolfaardt/Practice_Coding_Challenges/tree/01-Hacker_Rank-Python)  
 <!-- 2.0. [LeetCode - Go](https://github.com/BenWolfaardt/Coding_Challenge_Websites/tree/02-LeetCode-Go)   -->
-<!-- 3.0. [Cracking the Coding Interview - Python](https://github.com/BenWolfaardt/Practice_Coding_Challenges/tree/03-CtCi-Python) -->
+3.0. [Cracking the Coding Interview - Python](https://github.com/BenWolfaardt/Practice_Coding_Challenges/tree/03-CtCi-Python)
 <!--4. [TestDome - Python](https://www.testdome.com/)
 5. []()
 6. []()

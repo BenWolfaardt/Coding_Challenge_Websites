@@ -6,7 +6,8 @@ import (
 	elapsedTime "BenWolfaardt/Practice_Coding_Challenges/tree/02-LeetCode-Go/utilities"
 )
 
-func numIslands(grid [][]byte) int {
+// Bredth First Search - is much slower with the timer for the grid size in tests
+func numIslandsBFS(grid [][]byte) int {
 
 	defer elapsedTime.Timer(time.Now())
 
@@ -47,6 +48,45 @@ func numIslands(grid [][]byte) int {
 		}
 	}
 	return result
+}
+
+// Depth First Search - is much quicker with the timer for the grid size in tests
+func numIslandsDFS(grid [][]byte) int {
+
+	defer elapsedTime.Timer(time.Now())
+
+	if len(grid) == 0 {
+		return 0
+	}
+
+	nRow, nCol := len(grid), len(grid[0])
+	count := 1
+
+	for i := 0; i < nRow; i++ {
+		for j := 0; j < nCol; j++ {
+			if grid[i][j] == '1' {
+				// For assigning island value
+				count++
+				fill(grid, i, j, nRow, nCol, count)
+			}
+		}
+	}
+
+	return count - 1 // Started with 1
+}
+
+func fill(grid [][]byte, x, y, X, Y, val int) {
+	if x < 0 || y < 0 || x == X || y == Y {
+		return
+	}
+	if grid[x][y] == '0' || grid[x][y] > '1' {
+		return
+	}
+	grid[x][y] = byte(val) + '0'
+	fill(grid, x-1, y, X, Y, val)
+	fill(grid, x, y-1, X, Y, val)
+	fill(grid, x+1, y, X, Y, val)
+	fill(grid, x, y+1, X, Y, val)
 }
 
 // func fiddlingWithPopulationOfSliceOfSlices() {

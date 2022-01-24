@@ -1,6 +1,14 @@
 package leetcode
 
+import (
+	"time"
+
+	elapsedTime "BenWolfaardt/Practice_Coding_Challenges/tree/02-LeetCode-Go/utilities"
+)
+
 func numIslands(grid [][]byte) int {
+
+	defer elapsedTime.Timer(time.Now())
 
 	var result int
 	n, m := len(grid), len(grid[0])

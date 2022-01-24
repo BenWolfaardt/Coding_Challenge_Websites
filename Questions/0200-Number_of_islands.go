@@ -3,7 +3,7 @@ package leetcode
 import (
 	"time"
 
-	elapsedTime "BenWolfaardt/Practice_Coding_Challenges/tree/02-LeetCode-Go/utilities"
+	elapsedTime "BenWolfaardt/Practice_Coding_Challenges/tree/02-LeetCode-Go/Utilities"
 )
 
 // Bredth First Search - is much slower with the timer for the grid size in tests

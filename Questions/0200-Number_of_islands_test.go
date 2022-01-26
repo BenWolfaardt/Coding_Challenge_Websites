@@ -7,7 +7,7 @@ func Test_numIslandsBFS(t *testing.T) {
 	type args struct {
 		grid [][]byte
 	}
-	tests := []struct {
+	testCases := []struct {
 		name string
 		args args
 		want int
@@ -33,10 +33,10 @@ func Test_numIslandsBFS(t *testing.T) {
 			want: 3,
 		},
 	}
-	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
-			if got := numIslandsBFS(tt.args.grid); got != tt.want {
-				t.Errorf("numIslands() = %v, want %v", got, tt.want)
+	for _, tC := range testCases {
+		t.Run(tC.name, func(t *testing.T) {
+			if got := numIslandsBFS(tC.args.grid); got != tC.want {
+				t.Errorf("numIslands() = %v, want %v", got, tC.want)
 			}
 		})
 	}

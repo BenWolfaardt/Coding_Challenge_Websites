@@ -10,8 +10,8 @@ These are the LeetCode challenges that I have worked on to improve my understand
 
 
 [118]:      https://leetcode.com/problems/pascals-triangle/
-[118.1]:    Questions/118-Passcals_triangle.go
-[118.2]:    Questions/118-Passcals_triangle_test.go
+[118.1]:    Questions/0118-Passcals_triangle.go
+[118.2]:    Questions/0118-Passcals_triangle_test.go
 [200]:      https://leetcode.com/problems/number-of-islands/
 [200.1]:    Questions/0200-Number_of_islands.go
 [200.2]:    Questions/0200-Number_of_islands_test.go

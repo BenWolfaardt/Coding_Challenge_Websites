@@ -1,6 +1,4 @@
-# [LeetCode Python Challenge](https://leetcode.com/problemset/all/) Solution
-
-These are the LeetCode challenges that I have worked on to improve my understanding in Data Structures & Algorithms.
+# [LeetCode](https://leetcode.com/problemset/all/) `Python` Challenge Solutions
 
 | Question | Problem                                         | Test             | Difficulty | Solved  |
 |:--------:|:-----------------------------------------------:|:----------------:|:----------:|:-------:|

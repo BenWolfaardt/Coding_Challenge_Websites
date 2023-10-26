@@ -9,14 +9,14 @@ Each branch represents the source (book/website) as well as language in which th
 
 The branches, i.e. Coding Challenge Sources, with their respective langauges are as follows:  
 
-1. Hacker Rank
-  1.1. [C++](https://github.com/BenWolfaardt/Coding_Challenge_Websites/tree/01-Hacker_Rank-C+%2B)
-  1.2. [Python](https://github.com/BenWolfaardt/Practice_Coding_Challenges/tree/01-Hacker_Rank-Python)
-2. LeetCode
-  2.1. [Go](https://github.com/BenWolfaardt/Coding_Challenge_Websites/tree/02-LeetCode-Go)
-  2.2. [Python](https://github.com/BenWolfaardt/Coding_Challenge_Websites/tree/02-LeetCode-Python)
-3. Cracking the Coding Interview
-  3.1 [Python](https://github.com/BenWolfaardt/Practice_Coding_Challenges/tree/03-CtCi-Python)
+1. Hacker Rank  
+  1.1. [C++](https://github.com/BenWolfaardt/Coding_Challenge_Websites/tree/01-Hacker_Rank-C+%2B)  
+  1.2. [Python](https://github.com/BenWolfaardt/Practice_Coding_Challenges/tree/01-Hacker_Rank-Python)  
+2. LeetCode  
+  2.1. [Go](https://github.com/BenWolfaardt/Coding_Challenge_Websites/tree/02-LeetCode-Go)  
+  2.2. [Python](https://github.com/BenWolfaardt/Coding_Challenge_Websites/tree/02-LeetCode-Python)  
+3. Cracking the Coding Interview  
+  3.1 [Python](https://github.com/BenWolfaardt/Practice_Coding_Challenges/tree/03-CtCi-Python)  
 <!--4. [TestDome - Python](https://www.testdome.com/)
 5. []()
 6. []()

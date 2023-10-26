@@ -4,7 +4,7 @@ These are the LeetCode challenges that I have worked on to improve my understand
 
 | Question | Problem                                               | Test             | Difficulty | Solved  |
 |:--------:|:-----------------------------------------------------:|:----------------:|:----------:|:-------:|
-| [127]    | [Pascal's Triangle][127.1]                            | [Tests][127.2]   | Medium     |    ✓    |  
+| [127]    | [Word Ladder][127.1]                            | [Tests][127.2]   | Medium     |    ✓    |  
 
 [127]:      https://leetcode.com/problems/word-ladder/
 [127.1]:    questions/0127-Word_Ladder.py

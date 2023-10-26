@@ -1,18 +1,22 @@
 # Practice Coding Challenges
 
-This repository contains various challenges that I have worked through in order to increase my skills in Data Structures as well as programming in general. 
-Each branch represents the source (book/website) as well as language in which the "coding Challenge" has been solved. 
+This repository contains various challenges that I have worked through in order to increase my skills in Data Structures & Algorithms. 
+Each branch represents the source (book/website) as well as language in which the _coding challenge_ has been solved. 
 
-> As not to ocupy too many repositories with "tutorials" I've decided to group them into a single repository by making use of the `git`'s `orphan` command - allowing you to have independent branches with their own independant `git` history. Further details can be found [here](https://gist.github.com/BenWolfaardt/50905fa3e10d73b3622a3148afffed09).
+> As not to ocupy too many repositories with "tutorials" I've decided to group them into a single repository using `git checkout --orphan` - [further details](https://gist.github.com/BenWolfaardt/50905fa3e10d73b3622a3148afffed09).
 
 # Tutorials Completed
 
 The branches, i.e. Coding Challenge Sources, with their respective langauges are as follows:  
 
-1.1. [Hacker Rank - C++](https://github.com/BenWolfaardt/Coding_Challenge_Websites/tree/01-Hacker_Rank-C+%2B)  
-1.2. [Hacker Rank - Python](https://github.com/BenWolfaardt/Practice_Coding_Challenges/tree/01-Hacker_Rank-Python)  
-2.0. [LeetCode - Go](https://github.com/BenWolfaardt/Coding_Challenge_Websites/tree/02-LeetCode-Go)  
-3.0. [Cracking the Coding Interview - Python](https://github.com/BenWolfaardt/Practice_Coding_Challenges/tree/03-CtCi-Python)
+1. Hacker Rank
+  1.1. [C++](https://github.com/BenWolfaardt/Coding_Challenge_Websites/tree/01-Hacker_Rank-C+%2B)
+  1.2. [Python](https://github.com/BenWolfaardt/Practice_Coding_Challenges/tree/01-Hacker_Rank-Python)
+2. LeetCode
+  2.1. [Go](https://github.com/BenWolfaardt/Coding_Challenge_Websites/tree/02-LeetCode-Go)
+  2.2. [Python](https://github.com/BenWolfaardt/Coding_Challenge_Websites/tree/02-LeetCode-Python)
+3. Cracking the Coding Interview
+  3.1 [Python](https://github.com/BenWolfaardt/Practice_Coding_Challenges/tree/03-CtCi-Python)
 <!--4. [TestDome - Python](https://www.testdome.com/)
 5. []()
 6. []()

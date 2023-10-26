@@ -9,18 +9,18 @@ packages = [{include = "practice_coding_challenges"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 
-
 [tool.poetry.group.dev.dependencies]
 bandit = "1.7.5"
 black = "23.10.1"
 flake8 = "6.1.0"
+isort = "5.12.0"
+memory-profiler = "^0.61.0"
 mypy = "1.6.1"
 pre-commit = "3.5.0"
 pre-commit-hooks = "4.5.0"
+pytest = "7.4.3"
 pyupgrade = "3.15.0"
-memory-profiler = "^0.61.0"
-tabulate = "^0.9.0"
-pytest = "^7.4.3"
+tabulate = "0.9.0"
 
 [build-system]
 requires = ["poetry-core"]
@@ -34,6 +34,15 @@ skips = ["B101", "B601"]
 [tool.black]
 line-length = 110
 target-version = ['py311']
+
+[tool.isort]
+profile = "black"
+force_single_line = false
+line_length = 110
+lines_after_imports = 2
+lines_between_types = 1
+use_parentheses = true
+src_paths = ["questions", "tests"]
 
 [tool.mypy]
 python_version = "3.11"

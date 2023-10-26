@@ -21,6 +21,14 @@ repos:
       - id: flake8
         args: [--config, .flake8]
 
+  # isort sorts imports alphabetically, and automatically separated into sections and by type.
+  - repo: https://github.com/timothycrosley/isort
+    rev: 5.12.0
+    hooks:
+      - id: isort
+        args: [--line-length 110 --force-single-line-imports false --profile=black --filter-files --multi-line 3 --lines-after-imports 2 --lines-between-types 1 --use-parentheses true ]
+        files: \.py$
+
   # mypy checks type annotations.
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: v1.4.1

@@ -1,0 +1,62 @@
+[tool.poetry]
+name = "practice-coding-challenges"
+version = "0.1"
+description = "LeetCode solutions and tests to those solutions"
+authors = ["Ben Wolfaardt <benjaminwolfaardt@gmail.com>"]
+readme = "README.md"
+packages = [{include = "practice_coding_challenges"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+bandit = "1.7.5"
+black = "23.10.1"
+flake8 = "6.1.0"
+mypy = "1.6.1"
+pre-commit = "3.5.0"
+pre-commit-hooks = "4.5.0"
+pyupgrade = "3.15.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.bandit]
+exclude_dirs = ["*/tests/*"]
+tests = ["B201", "B301"]
+skips = ["B101", "B601"]
+
+[tool.black]
+line-length = 110
+target-version = ['py311']
+
+[tool.mypy]
+python_version = "3.11"
+
+check_untyped_defs = true
+disallow_untyped_defs = true
+incremental = false
+ignore_errors = false
+pretty = true
+show_error_context = true
+show_traceback = true
+strict_optional = true
+warn_incomplete_stub = true
+warn_no_return = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_configs = true
+warn_unused_ignores = true
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+log_cli = 0
+log_cli_level = "INFO"
+log_cli_format = "%(asctime)s [%(levelname)8s] %(message)s (%(filename)s:%(lineno)s)"
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
+python_files = ["test_*.py"]
+testpaths = ["tests"]

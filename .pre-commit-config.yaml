@@ -6,7 +6,7 @@ repos:
       - id: bandit
         args: ["-v", "-c", "pyproject.toml"]
         additional_dependencies: [".[toml]"]
-  
+
   # black is the uncompromising Python code formatter.
   - repo: https://github.com/psf/black
     rev: 23.3.0

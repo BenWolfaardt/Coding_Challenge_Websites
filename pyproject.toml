@@ -66,6 +66,7 @@ warn_unused_ignores = true
 [[tool.mypy.overrides]]
 module = [
     "memory_profiler.*",
+    "pytest.*",
     "tabulate.*"
 ]
 ignore_missing_imports = true

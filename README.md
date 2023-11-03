@@ -3,6 +3,7 @@
 ## Table of Contents
 
 - **Overview**
+- **Run Tests**
 - **Solution Details**
 - **TODOs**
 
@@ -16,6 +17,10 @@
 [127.1]:    questions/lc_0127_word_ladder.py
 [127.2]:    tests/test_lc_0127_word_ladder.py
 
+### Run Tests
+
+> `pytest -v`
+
 ### Solution Details
 
 > Important to note that each time the `Python` code is run, it's execution time can differ quite significantly. This is partly due to:
@@ -28,7 +33,7 @@
 > Regarding Big **O** and Memory footprint in the below sections - note that these values are those receivd in the LeetCode submissions.
 
 - Should you want to see more details and *your machines* performance you can run the code in the `if __name__ == "__main__":` section.
-- Run the code a few times to see how much of a difference can be observed due to the aforementioned issues.
+- Run the code a few times to see how much of a difference in *execution time* can be observed due to the aforementioned issues.
 
 #### 127 Word Ladder
 
@@ -37,13 +42,14 @@ The general approach to this question is using a Bredth First Search (BFS) as we
 - Solution 1: BFS & HashMap (`set`).
 - Solution 2: Optimised Solution 1 by precomputing valid transformations using a wildcard character approach.
 
-| Solution  | Time (ms) | Memory (MB) | Big **O**      |
-|----------:|:---------:|:-----------:|---------------|
-| **1**     | 437       | 18          | **O**(N * M^2) |
-| **2**     | 119       | 20.1        | **O**(N * M)   |
+| Solution  | Time (ms) | Memory (MiB) | Big **O**      |
+|----------:|:---------:|:------------:|----------------|
+| **1**     | 437       | 18.0         | **O**(N * M^2) |
+| **2**     | 119       | 20.1         | **O**(N * M)   |
 
 > Big **O** - where N is the number of words in the word list, and M is the length of each word.
 
 ### TODOs
 
 - [ ] Explain how to setup env
+- [ ] Add in memory profiling

@@ -11,8 +11,6 @@ import time
 from collections import defaultdict, deque
 from queue import Queue
 
-import memory_profiler
-
 from tabulate import tabulate
 
 
@@ -103,12 +101,10 @@ if __name__ == "__main__":
         start_time_1 = time.time_ns() // 1000
         result_1 = q.ladderLength_1(beginWords[i], endWords[i], wordLists[i])
         end_time_1 = time.time_ns() // 1000
-        m1 = memory_profiler.memory_usage((q.ladderLength_1, (beginWords[i], endWords[i], wordLists[i])))
 
         start_time_2 = time.time_ns() // 1000
         result_2 = q.ladderLength_2(beginWords[i], endWords[i], wordLists[i])
         end_time_2 = time.time_ns() // 1000
-        m2 = memory_profiler.memory_usage((q.ladderLength_2, (beginWords[i], endWords[i], wordLists[i])))
 
         result_row.append(f"{result_1} words")
         result_row.append(f"{result_2} words")
@@ -116,21 +112,16 @@ if __name__ == "__main__":
         result_row.append(f"{end_time_1 - start_time_1} µs")
         result_row.append(f"{end_time_2 - start_time_2} µs")
 
-        # Memory usage in MB
-        result_row.append(f"{m1[0]:.2f} MB")
-        result_row.append(f"{m2[0]:.2f} MB")
-
         results.append(result_row)
 
     headers = [
+        "",
         "Input",
         "Word List",
         "Solution 1 Result",
         "Solution 2 Result",
-        "Solution 1 Time (µs)",
-        "Solution 2 Time (µs)",
-        "Solution 1 Memory (MB)",
-        "Solution 2 Memory (MB)",
+        "Solution 1 Time",
+        "Solution 2 Time",
     ]
 
     print(tabulate(results, headers, tablefmt="fancy_grid"))
